@@ -1,0 +1,17 @@
+#configuracao principal do projeto mkdocs
+site_name: "documentacao de sistemas - mppb"
+site_url: "http://docs.sistemas.mppb.mp.br"
+
+theme:
+  name: "material"
+  language: "pt-BR"
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+
+nav:
+  - "inicio": "index.md"
+  - "sistemas internos":
+    - "sistema de processos": "sistemas/processos.md"
+    - "sistema de rh": "sistemas/rh.md"
